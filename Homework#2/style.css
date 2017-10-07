@@ -1,0 +1,73 @@
+body {
+    margin: 0 70px 10px;
+    padding: 0 70px 10px;
+    background-color: white;
+}
+
+ul {
+    list-style: none;
+    pading-left: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu ul {
+    background: black;
+    overflow: hidden;
+    padding: 0;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu a {
+    display: block;
+    padding: 1em;
+    border-right: 50px solid black;
+    background: black;
+    color: gray;
+}
+
+.menu a:hover {
+    color: white;
+
+}
+
+#metro {
+    float: left;
+    width: 49%;
+    font-family: fantasy;
+}
+
+#smb {
+    float: right;
+    width: 49%;
+    font-family: fantasy;
+}
+
+
+#battlefield {
+    width: 29%;
+    top: 435px;
+    font-family: fantasy;
+    position: absolute;
+}
+
+#cod {
+    width: 29%;
+    font-family: fantasy;
+    float: right;
+}
+
+#darksoul {
+    width: 34%;
+    font-family: fantasy;
+    float: right;
+}
+
+#triggered {
+    position: fixed;
+}
